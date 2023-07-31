@@ -10,9 +10,7 @@ export const Sidebar = () => {
   return (
     <div className=" flex flex-col justify-between items-start min-h-[100vh] h-full max-w-[70px] w-full border-r shrink-0">
       <div className=" w-full">
-        <button className="flex  w-full  h-[69px] items-center justify-center">
-          <Union />
-        </button>
+    
 
         <div className="group border-t flex flex-col justify-center items-center py-5 px-0 self-stretch gap-5">
           <button
@@ -22,7 +20,7 @@ export const Sidebar = () => {
             onMouseLeave={() => setHoveredIcon(null)}
           >
             {" "}
-            {hoveredIcon === "home" ? <HomeH /> : <Home />}
+         
           </button>
 
           <button
@@ -32,7 +30,7 @@ export const Sidebar = () => {
             onMouseLeave={() => setHoveredIcon(null)}
           >
             {" "}
-            {hoveredIcon === "layers" ? <LayersH /> : <Layers />}
+         
           </button>
 
           <button
@@ -42,7 +40,7 @@ export const Sidebar = () => {
             onMouseLeave={() => setHoveredIcon(null)}
           >
             {" "}
-            {hoveredIcon === "chart" ? <ChartH /> : <Chart />}
+           
           </button>
           <button
             className={`flex w-10 h-10 justify-center items-center hover:bg-blue-50  rounded-md tooltip tooltip-right  not-after`}
@@ -51,7 +49,7 @@ export const Sidebar = () => {
             onMouseLeave={() => setHoveredIcon(null)}
           >
             {" "}
-            {hoveredIcon === "users" ? <UsersH /> : <Users />}{" "}
+         
           </button>
         </div>
       </div>
@@ -62,7 +60,7 @@ export const Sidebar = () => {
           onMouseEnter={() => setHoveredIcon("bouy")}
           onMouseLeave={() => setHoveredIcon(null)}
         >
-          {hoveredIcon === "bouy" ? <BouyH /> : <Bouy />}{" "}
+       
         </button>
 
         <button
@@ -71,7 +69,7 @@ export const Sidebar = () => {
           onMouseEnter={() => setHoveredIcon("settings")}
           onMouseLeave={() => setHoveredIcon(null)}
         >
-          {hoveredIcon === "settings" ? <SettingsH /> : <Settings />}{" "}
+        
         </button>
         <button
           className="flex w-[40px] h-[40px] radius flex-col justify-center items-center  tooltip tooltip-right not-after"
