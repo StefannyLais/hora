@@ -75,7 +75,7 @@ export const Sidebar = () => {
           className="flex w-[40px] h-[40px] radius flex-col justify-center items-center  tooltip tooltip-right not-after"
           data-tip="Account"
         >
-          <Image src="/Avatar.jpg" width={35} height={35} alt="" />
+          <Image src="/Avatar.jpg" width={35} height={35} alt="Image" />
         </button>
       </div>
     </div>
